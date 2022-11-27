@@ -1,0 +1,256 @@
+@media screen and (max-width:1200px){
+    header .sky{
+        height: 105%;
+    }
+    header .moon{
+        width: 120px;
+        height: 120px;
+    }
+    section .wolfPic{
+        height: 250px;
+        width: 250px;
+        top: 200px;
+        left: 4%;
+    }
+    section .monkey{
+        width: 250px;
+    }
+    section .birds{
+        width: 200px;
+        height: 200px;
+        bottom: 20%;
+    }
+    section .first-text h1{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    section .first-text p{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    section .info-1{
+        width: 400px;
+        top: 23%;
+        font-size: 14px;
+    }
+    section .second-text{
+        left: 35%;
+        bottom: 35%;
+    }
+    section .second-text h1{
+        font-size: 20px;
+    }
+    section .info-2{
+        width: 700px;
+        bottom: 3%;
+        right: 7%;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:992px){
+    header .moon{
+        bottom: 40px;
+    }
+    section{
+        height: 1200px;
+        background-color: #0d081e;
+    }
+    section .wolfPic{
+        height: 250px;
+        width: 250px;
+    }
+    section .monkey{
+        left: 0;
+        top: 50%;
+        width: 400px;
+        height: 400px;
+    }
+    section .birds{
+        right: 7%;
+        top: 50%;
+        width: 250px;
+        height: 250px;
+    }
+    section .background{
+        display: none;
+    }
+    section .info-1{
+        top: 15%;
+        right: 5%;
+        color: white;
+    }
+    section .info-2{
+        width: 100%;
+        bottom: 3%;
+        right: 0;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    section .second-text{
+        color: white;
+        left: 38%;
+        bottom: 20%;
+    }
+    footer .container .content .footer-text h1{
+        font-size: 25px;
+    }
+    footer .container .content .footer-text p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:800px){
+    section .info-1{
+        width: 300px;
+    }
+    section .birds{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:768px){
+    header .moon{
+        left: 43%;
+        bottom: 30px;
+    }
+    section{
+        height: 1300px;
+    }
+    section .wolfPic{
+        top: 20%;
+        width: 200px;
+        height: 200px;
+    }
+    section .monkey{
+        width: 300px;
+        height: 300px;
+    }
+    section .second-text{
+        bottom: 23%;
+    }
+}
+@media screen and (max-width: 600px){
+    header ul li{
+        margin: 0 18px;
+    }
+    header ul li a{
+        font-size: 16px;
+    }
+    header .sky{
+        height: 107%;
+    }
+    header .moon{
+        left: 40%;
+        bottom: 10px;
+    }
+    section{
+        height: 1400px;
+    }
+    section .first-text{
+        top: 30px;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    section .first-text h1{
+        font-size: 20px;
+    }
+    section .first-text p{
+        font-size: 14px;
+    }
+    section .info-1{
+        width: 100%;
+        right: 0;
+        top: 30%;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    section .wolfPic{
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 250px;
+    }
+    section .monkey{
+        width: 220px;
+        top: 53%;
+    }
+    section .birds{
+        width: 220px;
+        right: 10px;
+        top: 53%;
+    }
+    footer .container .content .footer-text h1{
+        font-size: 20px;
+    }
+    footer .container .content .footer-text p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 450px){
+    header ul li{
+        margin: 0 14px;
+    }
+    header ul li a{
+        font-size: 14px;
+    }
+    header .sky{
+        height: 109%;
+    }
+    header .moon{
+        left: 37%;
+        bottom: 5px;
+    }
+    section{
+        height: 1700px;
+    }
+    section .wolfPic{
+        top: 8%;
+    }
+    section .info-1{
+        top: 25%;
+    }
+    section .monkey{
+        width: 100%;
+        top: 50%;
+    }
+    section .birds{
+        display: none;
+    }
+    section .second-text{
+        width: 100%;
+        bottom: 27%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    footer .container .content{
+        margin-top: 20px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 350px){
+    section{
+        height: 1850px;
+    }
+    section .wolfPic{
+        top: 8%;
+    }
+    section .info-1{
+        top: 25%;
+    }
+    section .monkey{
+        width: 100%;
+        top: 50%;
+    }
+    section .birds{
+        display: none;
+    }
+    section .second-text{
+        width: 100%;
+        bottom: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    section .second-text h1{
+        margin-bottom: 0;
+    }
+}

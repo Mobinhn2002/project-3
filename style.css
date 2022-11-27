@@ -1,0 +1,188 @@
+@font-face {
+    font-family: vazir;
+    src: url('vazir.ttf');
+}
+body{
+    font-family: vazir;
+    margin: 0;
+}
+header{
+    position: relative;
+    height: 100vh;
+}
+header ul{
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    list-style-type: none;
+}
+header ul li{
+    margin: 0 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all .4s;
+}
+header ul li a:hover{
+    color: rgb(255, 166, 0);
+}
+header .sky{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+header .moon{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 46%;
+    bottom: 60px;
+}
+header .tree{
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+}
+section{
+    position: relative;
+    overflow: hidden;
+}
+section .first-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+section .first-text h1{
+    margin-top: 0;
+    font-size: 30px;
+}
+section .first-text p{
+    font-size: 20px;
+}
+section .wolfPic{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 300px;
+    left: 60px;
+}
+section .info-1{
+    position: absolute;
+    top: 400px;
+    right: 90px;
+    width: 600px;
+    line-height: 35px;
+    text-align: justify;
+    color: #0d081e;
+}
+section .monkey{
+    position: absolute;
+    width: 300px;
+    left: 3%;
+    bottom: 0%;
+}
+section .birds{
+    position: absolute;
+    bottom: 200px;
+    right: 80px;
+    width: 300px;
+    height: 300px;
+}
+section .second-text{
+    position: absolute;
+    bottom: 570px;
+    left: 500px;
+    text-align: center;
+}
+section .info-2{
+    position: absolute;
+    width: 700px;
+    bottom: 50px;
+    left: 270px;
+    font-size: 14px;
+    color: white;
+    line-height: 35px;
+    text-align: justify;
+}
+footer{
+    background-color: rgb(35, 13, 53);
+}
+footer .container{
+    position: relative;
+    top: -9px;
+    background-color: rgb(35, 13, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .container img{
+    position: absolute;
+}
+footer .container .content{
+    width: 750px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    margin-top: 60px;
+    z-index: 1;
+}
+footer .container .content .footer-text{
+    text-align: center;
+}
+footer .container .content .footer-text h1{
+    margin-bottom: 10px;
+}
+footer .container .content .footer-text p{
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 80px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+footer .container .content .footer-text form{
+    text-align: center;
+}
+footer .container .content .footer-text form button{
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    padding: 5px;
+    font-family: vazir;
+    font-size: 16px;
+    cursor: pointer;
+}
+footer .container .content .footer-text form input{
+    width: 55%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: vazir;
+    border: none;
+    outline: none;
+}
+footer .container .content .bottom-text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .container .content .bottom-text .socialMedia i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+footer .container .content .bottom-text p{
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 30px;
+}
